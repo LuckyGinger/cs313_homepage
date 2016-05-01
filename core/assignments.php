@@ -18,6 +18,11 @@
 		<div class="col-md-1 col-sm-2"></div>
 		<div class="content_div col-md-7 col-sm-8">
 			<h1 class="coming_soon" >Coming Soon!</h1>
+
+
+			<img src="./images/t_rex.gif" class="img-responsive center-block" alt="t-rex">
+
+
 		</div>
 		<div class="col-md-4 col-sm-2"></div>
 

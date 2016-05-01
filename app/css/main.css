@@ -40,3 +40,13 @@ body {
 .img_center {
 	margin: 0 auto;
 }
+
+.about_me_ref {
+	text-align: center;
+	font-family: "Times New Roman";
+}
+
+.about_me_p {
+	text-indent: 50px;
+	text-align: justify;
+}

@@ -14,8 +14,7 @@
 
 </head>
 <body>
-	<?php include "../app/html/navbar.html" ?>
-
+	<?php include "../app/html/navbar.html" ?>"
 	<div class="row">
 		<div class="col-md-1 col-sm-2"></div>
 		<div class="content_div col-md-7 col-sm-8">
@@ -57,10 +56,14 @@
 					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 					<span class="sr-only">Next</span>
 				</a>
-
 			</div>
 
-
+			<h1 class="about_me_ref">About Me</h1>
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<p class="about_me_p">Hello, my name is Thom. I grew up in a small American town in Colorado herding guinea pigs for butchering. My brother, sister and I were able to have the usual number of three meals a day and could see the sun for an hour between a crack in the door. I enjoy Rubik's cubes and mountain biking, long walks in the snow and drinking hot chocolate in the rain. As much as I would like to have a family of my own, I can wait a few years. I hear there's a world out there and I am just dying to see it for myself. I am currently a Computer Science major and I think it would be cool to go further into the web development field or do something simple like work for NASA... Boom.</p>
+			</div>
+			<div class="col-md-2"></div>
 		</div>
 		<div class="col-md-4 col-sm-2"></div>
 
