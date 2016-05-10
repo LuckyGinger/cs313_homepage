@@ -22,6 +22,11 @@ body {
 	text-align: center;
 }
 
+.text_center {
+	text-align: center;
+}
+
+
 .content_div {
 	top: 70px;
 	padding-top: 20px;
