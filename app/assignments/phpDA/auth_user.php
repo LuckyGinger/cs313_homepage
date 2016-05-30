@@ -44,7 +44,7 @@
         $pwd = mysql_real_escape_string($_POST["pwd"]);
 
         try {
-            $query = "SELECT id, user_name, first_name, pwd FROM user WHERE user_name=:user_name AND pwd=:pwd";
+            $query = "SELECT id, user_name, first_name FROM user WHERE user_name=:user_name AND pwd=:pwd";
             $stmt = $db->prepare($query);
             $stmt->bindValue(':user_name', $user_name, PDO::PARAM_STR);
             $stmt->bindValue(':pwd', $pwd, PDO::PARAM_STR);
@@ -54,6 +54,7 @@
             session_start();
             $_SESSION['first_name'] = $user['first_name'];
             $_SESSION['user_name'] = $user['user_name'];
+            $_SESSION['id'] = $user['id'];
 
             header( 'Location: hotthomics.php' );
 
