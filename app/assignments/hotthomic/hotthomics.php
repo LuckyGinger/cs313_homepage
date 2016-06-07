@@ -30,7 +30,7 @@
         <?php
             foreach ($db->query('SELECT id, name, description, gender_housing, average_rating, semester_price FROM complex ORDER BY average_rating DESC') as $row)
             {
-                echo "<h3><a  href='reviews.php?apt_id=" . $row['id'] . "'>" . $row['name'] . "</a></h3>";
+                echo "<h3><a  class='link' href='reviews.php?apt_id=" . $row['id'] . "'>" . $row['name'] . "</a></h3>";
 
                 echo "<div class='row'>";
                 if (!$row['gender_housing']) {
